@@ -1,0 +1,3 @@
+I wrote the code in C language because I have more knowledge in C than the other languages.
+Dijkstra's code is ignoring the negative weights despite having low weight value than other non negative weight values.
+Prims and Kruskal are working fine but in some cases the less weight value ignores the connectivity between two nodes.
