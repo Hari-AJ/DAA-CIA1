@@ -1,3 +1,5 @@
 I wrote the code in C language because I have more knowledge in C than the other languages.
 Dijkstra's code is ignoring the negative weights despite having low weight value than other non negative weight values.
+Since Dijkstra's goal is to find the optimal path , itcannot work with negative weights, since it cannot find the optimal path.
 Prims and Kruskal are working fine but in some cases the less weight value ignores the connectivity between two nodes.
+In prims and Kruskal if there are negative weight edges they will not affect the evolution of the algorithm.
