@@ -46,6 +46,7 @@ int main(){
     N->n2=n2;
     N->wei=w;
     arr[i]=N;
+    if(w<0)w+=1000;
     if(min==0){
       min=w;
       minInd=i;
